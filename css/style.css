@@ -1,3 +1,13 @@
 .container{
     display:flex;
 }
+
+body{
+    /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=3f8274&c2=7182a1&gt=l&gd=dtl
+*/
+background: #3F8274;
+background: linear-gradient(315deg, #3F8274, #7182A1);
+
+}
