@@ -167,5 +167,80 @@ nav a:hover::after{
     margin-bottom: 0.5rem;
  }
 
- 
+ .section-subtitle{
+    text-align: center;
+    color: #6b7280;
+    font-size: 1.25rem;
+    margin-bottom: 3rem;
+ }
+
+ .about-content{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    flex-wrap: wrap;
+ }
+
+ .about-image{
+    flex: 1;
+    min-width: 300px;
+ }
+
+ .about-image img{
+    width: 100%;
+    max-width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+ }
+
+ .about-image:hover{
+    transform: scale(1.05)
+ }
+
+ .about-text{
+    flex: 1;
+    min-width: 300px;
+ }
+
+ .about-textp{
+    margin-bottom: 1rem;
+    color: #6b7280;
+    line-height: 1.8;
+ }
+
+ #skills{
+    background: #f9fafb;
+ }
+
+ .skills-grid{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 3rem;
+ }
+
+ .skill-card{
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+ }
+
+ .skill-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(37, 99, 235, 0.2);
+ }
+
+ .skill-icon{
+    font-size: 3rem;
+    color: #2563eb;
+    margin-bottom: 1rem;
+ }
+
+ .skill-card p{
+    font-weight: 600;
+    color: #1f2937;
+ }
 
