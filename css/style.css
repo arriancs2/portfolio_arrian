@@ -84,3 +84,31 @@ nav a:hover::after{
     animation: float 20s linear infinite;
 }
 
+@keyframes float{
+    0% { transform: translateY(0); }
+    100% { transform: translateX(-100px)}
+}
+
+.hero-contnet{
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.hero h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 3.052rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    animation: fadeInUp 1s ease;
+}
+
+.hero p {
+    font-size: 1.563rem;
+    margin-bottom: 2rem;
+    opacity: 0.95;
+    animation: fadeInUp 1s ease 0.2s backwards;
+}
+
