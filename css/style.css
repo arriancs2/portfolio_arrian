@@ -112,3 +112,60 @@ nav a:hover::after{
     animation: fadeInUp 1s ease 0.2s backwards;
 }
 
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+            transform: translateY(30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+ }
+
+
+ .cta-button{
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    background: #f59e0b;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 1.25rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(245, 158, 11, 0.4);
+    animation: fadeInup 1s ease 0.4s backwards;
+ }
+
+ .cta-button:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(245, 158, 11, 0.6);
+ }
+
+ main{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+ }
+
+ section{
+    padding: 5rem 0;
+ }
+
+ h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.441rem;
+    color: #1f2937;
+    margin-bottom: 1rem;
+    text-align: center;
+ }
+
+ h3{
+    font-size: 1.563rem;
+    color: #1f2937;
+    margin-bottom: 0.5rem;
+ }
+
+ 
+
