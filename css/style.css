@@ -303,3 +303,43 @@ nav a:hover::after{
     text-decoration-thickness: 2px;
     text-underline-offset: 4px;
 }
+
+#contact{
+    background: #f9fafb;
+    text-align: center;
+}
+
+.contact-icons{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 3rem;
+    flex-wrap: wrap;
+}
+
+.contact-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    color: #1f2937;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.contact-icon i{
+    font-size: 2.5rem;
+    color: #2563eb;
+    transition: all 0.3s ease;
+}
+
+.contact-icon:hover i{
+    color: #f59e0b;
+    transform: scale(1.2) rotate(5deg);
+}
+
+.contact-icon span{
+    font-size: 0.8rem;
+}
+
+
