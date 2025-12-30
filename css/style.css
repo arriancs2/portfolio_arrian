@@ -342,7 +342,7 @@ nav a:hover::after{
     font-size: 0.8rem;
 }
 
-footer{
+/* footer{
     background: #1f2937;
     color: #ffffff;
     text-align: center;
@@ -352,6 +352,6 @@ footer{
 
 footer p{
     opacity: 0.8;
-}
+} */
 
 
