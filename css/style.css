@@ -12,3 +12,53 @@ body {
     background-color: #ffffff;
 
 }
+
+nav {
+    position: sticky;
+    top: 0;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 1.5rem 2rem;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+}
+
+nav a{
+    color: #1f2937;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+nav a::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #2563eb;
+    transition: width 0.3s ease;
+}
+
+nav a:hover{
+    color: #2563eb
+}
+
+nav a:hover::after{
+    width: 100%;
+}
